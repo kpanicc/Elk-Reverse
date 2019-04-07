@@ -1,9 +1,18 @@
 fileFormatVersion: 2
-guid: fef02abcd76696742b158593b38968d5
+guid: ca1d0adc5b1b0bc46ab5e8537874b0ca
 TextureImporter:
   fileIDToRecycleName:
-    21300000: elk_idle_0
-    21300002: elk_idle_1
+    21300000: idle_left (1)_0
+    21300002: idle_left (1)_1
+    21300004: idle_left (1)_2
+    21300006: idle_left (1)_3
+    21300008: idle_left (1)_4
+    21300010: idle_left (1)_5
+    21300012: idle_left (1)_6
+    21300014: idle_left (1)_7
+    21300016: idle_left (1)_8
+    21300018: idle_left (1)_9
+    21300020: idle_left (1)_10
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -81,11 +90,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elk_idle_0
+      name: idle_left (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 704
         width: 250
         height: 320
       alignment: 0
@@ -95,11 +104,137 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: elk_idle_1
+      name: idle_left (1)_1
       rect:
         serializedVersion: 2
         x: 250
-        y: 0
+        y: 704
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 704
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 704
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 384
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 384
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_7
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 384
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 64
+        width: 250
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle_left (1)_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 64
         width: 250
         height: 320
       alignment: 0
