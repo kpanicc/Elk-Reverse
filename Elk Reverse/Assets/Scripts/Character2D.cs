@@ -41,10 +41,11 @@ public class Character2D : MonoBehaviour {
 
     public void Move(float direction)
     {
-        animator.SetFloat("SpeedX", Mathf.Abs(direction));
+        animator.SetFloat("SpeedX", direction);
         //Output the current Animation name and length to the screen
         rb2d.velocity = new Vector2(direction * m_maxSpeed, rb2d.velocity.y);
-
+        
+        /* Not needed as there are different animations for right and left movement
         if (facingLeft && direction > 0)
         {
             Flip();
@@ -53,6 +54,8 @@ public class Character2D : MonoBehaviour {
         {
             Flip();
         }
+        */
+
     }
 
     public void Jump()

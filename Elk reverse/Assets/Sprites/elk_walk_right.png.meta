@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 27643e7366bebdf4c8f6ab879c50e1ee
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: elk_walk_right 1_0
+    21300002: elk_walk_right 1_1
+    21300004: elk_walk_right 1_2
+    21300006: elk_walk_right 1_3
+    21300008: elk_walk_right 1_4
+    21300010: elk_walk_right 1_5
+    21300012: elk_walk_right 1_6
+    21300014: elk_walk_right 1_7
+    21300016: elk_walk_right 1_8
+    21300018: elk_walk_right 1_9
+    21300020: elk_walk_right 1_10
+    21300022: elk_walk_right 1_11
+    21300024: elk_walk_right 1_12
+    21300026: elk_walk_right 1_13
+    21300028: elk_walk_right 1_14
+    21300030: elk_walk_right 1_15
+    21300032: elk_walk_right 1_16
+    21300034: elk_walk_right_0
+    21300036: elk_walk_right_1
+    21300038: elk_walk_right_2
+    21300040: elk_walk_right_3
+    21300042: elk_walk_right_4
+    21300044: elk_walk_right_5
+    21300046: elk_walk_right_6
+    21300048: elk_walk_right_7
+    21300050: elk_walk_right_8
+    21300052: elk_walk_right_9
+    21300054: elk_walk_right_10
+    21300056: elk_walk_right_11
+    21300058: elk_walk_right_12
+    21300060: elk_walk_right_13
+    21300062: elk_walk_right_14
+    21300064: elk_walk_right_15
+    21300066: elk_walk_right_16
+    21300068: elk_walk_right_17
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elk_walk_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708
+        width: 189
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 708
+        width: 204
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 719
+        width: 199
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 720
+        width: 204
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_4
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 723
+        width: 217
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_5
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 716
+        width: 206
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_6
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 710
+        width: 207
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_7
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 708
+        width: 200
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 191
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_9
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 396
+        width: 189
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_10
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 396
+        width: 187
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 406
+        width: 201
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_12
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 408
+        width: 213
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_13
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 419
+        width: 227
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_14
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 405
+        width: 227
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_15
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 399
+        width: 220
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: elk_walk_right_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 199
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
