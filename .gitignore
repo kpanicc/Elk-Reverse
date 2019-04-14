@@ -57,3 +57,9 @@ crashlytics-build.properties
 
 #FMOD project folder
 lluvia SFX
+
+# Pycharm project files
+.idea/
+
+# Python virtual environment
+venv

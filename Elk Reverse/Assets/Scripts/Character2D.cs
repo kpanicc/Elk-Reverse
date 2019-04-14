@@ -41,20 +41,21 @@ public class Character2D : MonoBehaviour {
 
     public void Move(float direction)
     {
-        animator.SetFloat("SpeedX", direction);
+        animator.SetFloat("SpeedX", Mathf.Abs(direction));
         //Output the current Animation name and length to the screen
         rb2d.velocity = new Vector2(direction * m_maxSpeed, rb2d.velocity.y);
-        
-        /* Not needed as there are different animations for right and left movement
+        Debug.Log("SpeedX: " + direction);
+
         if (facingLeft && direction > 0)
         {
-            Flip();
+            facingLeft = !facingLeft;
         }
         else if (!facingLeft && direction < 0)
         {
-            Flip();
+            facingLeft = !facingLeft;
         }
-        */
+
+        animator.SetBool("FacingLeft", facingLeft);
 
     }
 
@@ -66,12 +67,12 @@ public class Character2D : MonoBehaviour {
 
     private void OnGUI()
     {
-        //print("SpeedX: " + rb2d.velocity);
+        /*print("SpeedX: " + rb2d.velocity);
+        print("FacingLeft: " + facingLeft);*/
     }
 
     public void Flip()
     {
-        facingLeft = !facingLeft;
 
         // Multiply the player's x local scale by -1.
         Vector3 theScale = transform.localScale;

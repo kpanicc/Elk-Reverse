@@ -5,6 +5,8 @@ using UnityEngine;
 public class CameraController : MonoBehaviour {
 
     public GameObject player;       //Public variable to store a reference to the player game object
+    public GameObject[] associatedObjects;
+    public Vector3[] associatedObjectsOffset;
     private Vector3 offset;         //Private variable to store the offset distance between the player and camera
 
     // Use this for initialization
@@ -12,6 +14,12 @@ public class CameraController : MonoBehaviour {
     {
         //Calculate and store the offset value by getting the distance between the player's position and camera's position.
         offset = transform.position - player.transform.position;
+
+        associatedObjectsOffset = new Vector3[associatedObjects.Length];
+        for (int i = 0; i < associatedObjects.Length; i++)
+        {
+            associatedObjectsOffset[i] = associatedObjects[i].transform.position - player.transform.position;
+        }
     }
 
     // LateUpdate is called after Update each frame
@@ -19,5 +27,13 @@ public class CameraController : MonoBehaviour {
     {
         // Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
         transform.position = player.transform.position + offset;
+        for (int i = 0; i < associatedObjects.Length; i++)
+        {
+            associatedObjects[i].transform.position = player.transform.position + associatedObjectsOffset[i];
+        }
+    }
+    private void OnGUI()
+    {
+
     }
 }
