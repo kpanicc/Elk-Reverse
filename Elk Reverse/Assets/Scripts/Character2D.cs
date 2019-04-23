@@ -6,7 +6,7 @@ public class Character2D : MonoBehaviour {
 
     [SerializeField] private float m_maxSpeed = 8f;
     [SerializeField] private float m_JumpForce = 400f;
-    [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
+    [SerializeField] private LayerMask m_WhatIsGround; // A mask determining what is ground to the character
 
     private Animator animator;
     private Rigidbody2D rb2d;
@@ -37,6 +37,8 @@ public class Character2D : MonoBehaviour {
                 m_Grounded = true;
         }
         animator.SetBool("Grounded", m_Grounded);
+        animator.SetFloat("SpeedY", rb2d.velocity.y);
+        Debug.Log("SpeedY: " + rb2d.velocity.y);
     }
 
     public void Move(float direction)
@@ -44,7 +46,6 @@ public class Character2D : MonoBehaviour {
         animator.SetFloat("SpeedX", Mathf.Abs(direction));
         //Output the current Animation name and length to the screen
         rb2d.velocity = new Vector2(direction * m_maxSpeed, rb2d.velocity.y);
-        Debug.Log("SpeedX: " + direction);
 
         if (facingLeft && direction > 0)
         {
