@@ -12,78 +12,26 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114443902870434240}
-  - {fileID: 114276587625119628}
+  - {fileID: 114676189666551244}
+  - {fileID: 114483662199897780}
   EditorEvents:
-  - {fileID: 114405757178022778}
-  - {fileID: 114867974392017678}
-  - {fileID: 114866550806017094}
+  - {fileID: 114980604816466578}
+  - {fileID: 114466197387308218}
+  - {fileID: 114656414975019076}
+  - {fileID: 114700264186148192}
+  - {fileID: 114648858052879486}
+  - {fileID: 114615736998391222}
+  - {fileID: 114764674122885808}
+  - {fileID: 114273495724355710}
+  - {fileID: 114852741384226218}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 114276587625119628}
+  - {fileID: 114483662199897780}
   StringsBanks:
-  - {fileID: 114443902870434240}
-  stringsBankWriteTime: 636904435630790845
+  - {fileID: 114676189666551244}
+  stringsBankWriteTime: 636938129219170312
   cacheVersion: 3
---- !u!114 &114276587625119628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: D:\Repos\Elk Reverse\lluvia SFX\Build\Desktop\Master.bank
-  lastModified: 636904435630764467
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 4105856
-  Exists: 1
---- !u!114 &114405757178022778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/ambient/MX
-  guid: 7d5f78755c72b54984ba7d0bb0080ac4
-  Banks:
-  - {fileID: 114276587625119628}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 180000
---- !u!114 &114443902870434240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: D:\Repos\Elk Reverse\lluvia SFX\Build\Desktop\Master.strings.bank
-  lastModified: 636904435630790845
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 840
-  Exists: 1
---- !u!114 &114866550806017094
+--- !u!114 &114037431819684990
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -97,7 +45,7 @@ MonoBehaviour:
   Path: event:/FOLEY/Linterna
   guid: d1fccc7ad2d19a44a26135f60a877c6f
   Banks:
-  - {fileID: 114276587625119628}
+  - {fileID: 114483662199897780}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -105,7 +53,262 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &114867974392017678
+--- !u!114 &114038032650429094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/ambient/MX
+  guid: 7d5f78755c72b54984ba7d0bb0080ac4
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 180000
+--- !u!114 &114273495724355710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MX/Lv1
+  guid: 7d5f78755c72b54984ba7d0bb0080ac4
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 186000
+--- !u!114 &114466197387308218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FOLEY/Elk/Saltar_   Aterrizar
+  guid: 9e60cc84a724dc459dedaa1c505fb515
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1600
+--- !u!114 &114483662199897780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: D:\Repos\Elk Reverse\lluvia SFX\Build\Desktop\Master.bank
+  lastModified: 636938129219140322
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 9596672
+  Exists: 1
+--- !u!114 &114615736998391222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FOLEY/Elk/Arrastrar
+  guid: d72ae0400d323846880376a2691a1da5
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 20000
+--- !u!114 &114648858052879486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FOLEY/Elk/Linterna
+  guid: d1fccc7ad2d19a44a26135f60a877c6f
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 42249
+--- !u!114 &114656414975019076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FOLEY/Elk/Caminar_Correr
+  guid: a936f1e54ce30d42a4bb3e8392506fe1
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 900
+--- !u!114 &114676189666551244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: D:\Repos\Elk Reverse\lluvia SFX\Build\Desktop\Master.strings.bank
+  lastModified: 636938129219170312
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1126
+  Exists: 1
+--- !u!114 &114700264186148192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FX/SFX_Lluvia
+  guid: b86cbc6cf47251408a7367a0066eb87a
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 119658
+--- !u!114 &114764674122885808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FX/SFX_Madera_Mov
+  guid: f931768611f18345b168562fba32efc4
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1250
+--- !u!114 &114852741384226218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MX/Lv2
+  guid: a3eba3e6bc198044b48d4f12da709f64
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 160052
+--- !u!114 &114877544695734796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MX/Lv1_DONE
+  guid: a3eba3e6bc198044b48d4f12da709f64
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 160052
+--- !u!114 &114914115988526718
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -119,7 +322,7 @@ MonoBehaviour:
   Path: event:/ambient/SFX_Lluvia
   guid: b86cbc6cf47251408a7367a0066eb87a
   Banks:
-  - {fileID: 114276587625119628}
+  - {fileID: 114483662199897780}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -127,3 +330,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 119658
+--- !u!114 &114963248086377114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MX/Lv1 (NO USAR)
+  guid: 7d5f78755c72b54984ba7d0bb0080ac4
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 182000
+--- !u!114 &114980604816466578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/FX/SFX_Carretilla
+  guid: 8e83f3d8a9f3794fb3c8151b591f6bf0
+  Banks:
+  - {fileID: 114483662199897780}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 29247

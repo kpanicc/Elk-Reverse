@@ -1,9 +1,11 @@
 WindowsStandalone
 PlayerPath?
-D:/Repos/Elk Reverse/Elk Reverse/builded/er.exe
+D:/Repos/Elk Reverse/Elk Reverse/built/ElkR.exe
 SceneListBegin?
-Assets/TestScene.unity
+Assets/Scenes/MainMenu.unity
+Assets/Scenes/Level1.unity
 SceneListEnd?
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ZKillzone
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -80,6 +82,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameHelpers
 1883791c8c7b36b8e2c2e2ffd6f11bb9 Assembly-CSharp-firstpass.dll:FMODUnity.StudioEventEmitter
 1a7e245a66d559128a8167d509241ef0 Assembly-CSharp-firstpass.dll:FMODUnity.StudioGlobalParameterTrigger
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -121,7 +124,9 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 92d7a83ea3c7404e484f3b2eed421855 Assembly-CSharp-firstpass.dll:.FMODEventTrack
 f5c3031670d4512c1a65d1cb73d2911b Assembly-CSharp-firstpass.dll:FMODUnity.StudioListener
-2ee09413842bfc29f8461dbf9600763a Assembly-CSharp.dll:.Character2D
+4f343e9cc1e638676462bf17ef4a0233 Assembly-CSharp.dll:.HoverableButton
+50440375fc0b21b6910f4c3efa02a415 Assembly-CSharp.dll:.Character2D
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenuScript
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -136,6 +141,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ManageHighlightImage
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 de4d9d052ba4d30c8e1d66d73b186762 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -143,6 +149,7 @@ de4d9d052ba4d30c8e1d66d73b186762 UnityEngine.TestRunner.dll:UnityEngine.TestTool
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+23073463fd4723f2fef17929b201e36c Assembly-CSharp.dll:.HighlightImage
 9e0ef5bf862444b5dc48b5a99554ce7c UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
@@ -155,7 +162,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 8cc632c1d9d880ccebcfd32cc9d963fd Assembly-CSharp-firstpass.dll:FMODUnity.StudioParameterTrigger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerController
-2b5bd81c259c691324a17af9a3e97e85 Assembly-CSharp.dll:.CameraController
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Elk
+b3e95fb0c239f51850d765ca06e2998f Assembly-CSharp.dll:.CameraController
 4b4cc5a055250c37c3d90973e6fb6759 Assembly-CSharp-firstpass.dll:FMODUnity.RuntimeManager
 9541343f9936f12f6a8a2f4d0bb837db Assembly-CSharp-firstpass.dll:FMODUnity.StudioBankLoader

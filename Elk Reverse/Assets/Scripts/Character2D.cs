@@ -1,12 +1,24 @@
-﻿using System.Collections;
+﻿using FMOD;
+using FMOD.Studio;
+using FMODUnity;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character2D : MonoBehaviour {
+public class Character2D : MonoBehaviour
+{ 
+    public float m_maxSpeed = 8f;
+    public float m_JumpForce = 400f;
+    public LayerMask m_WhatIsGround; // A mask determining what is ground to the character
+    public float m_LanternUpLowerBound = 0.1f;
+    public float m_LanternDownUpperBound = -0.1f;
 
-    [SerializeField] private float m_maxSpeed = 8f;
-    [SerializeField] private float m_JumpForce = 400f;
-    [SerializeField] private LayerMask m_WhatIsGround; // A mask determining what is ground to the character
+    [EventRef]
+    public string stepSoundEvent = "";
+    private EventInstance stepSoundInstance;
+    private const float stepSoundVolume = 0.15f;
+    [EventRef]
+    public string jumpSoundEvent = "";
 
     private Animator animator;
     private Rigidbody2D rb2d;
@@ -15,6 +27,8 @@ public class Character2D : MonoBehaviour {
 
     private bool m_Grounded;
     private bool facingLeft = true;
+    private bool usingLantern = false;
+    private float lanternYOrigin;
 
     // Use this for initialization
     void Start ()
@@ -38,7 +52,7 @@ public class Character2D : MonoBehaviour {
         }
         animator.SetBool("Grounded", m_Grounded);
         animator.SetFloat("SpeedY", rb2d.velocity.y);
-        Debug.Log("SpeedY: " + rb2d.velocity.y);
+        animator.SetFloat("CurrentLanternFrameOffset", animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
     }
 
     public void Move(float direction)
@@ -66,6 +80,21 @@ public class Character2D : MonoBehaviour {
             rb2d.AddForce(new Vector2(0, m_JumpForce));
     }
 
+    public void SecondaryFireDown()
+    {
+        UnityEngine.Debug.Log("down");
+        usingLantern = true;
+        lanternYOrigin = Input.mousePosition.y;
+        animator.SetBool("Lantern", usingLantern);
+    }
+
+    public void SecondaryFireUp()
+    {
+        UnityEngine.Debug.Log("up");
+        usingLantern = false;
+        animator.SetBool("Lantern", usingLantern);
+    }
+
     private void OnGUI()
     {
         /*print("SpeedX: " + rb2d.velocity);
@@ -79,5 +108,21 @@ public class Character2D : MonoBehaviour {
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    public void OnAnimationStep(int frame)
+    {
+        if (stepSoundInstance.isValid())
+        {
+            stepSoundInstance.release();
+            stepSoundInstance.clearHandle();
+        }
+
+        if (!stepSoundInstance.isValid())
+        {
+            stepSoundInstance = RuntimeManager.CreateInstance(stepSoundEvent);
+            stepSoundInstance.setVolume(stepSoundVolume);
+            stepSoundInstance.start();
+        }
     }
 }

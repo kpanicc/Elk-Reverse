@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Character2D))]
 public class PlayerController : MonoBehaviour {
@@ -15,6 +16,18 @@ public class PlayerController : MonoBehaviour {
 	}
     private void Update()
     {
+        if (Input.GetButtonDown("Cancel"))
+            SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            character.SecondaryFireDown();
+        }
+        else if (Input.GetButtonUp("Fire2"))
+        {
+            character.SecondaryFireUp();
+        }
+
         if (!m_Jump)
         {
             // Read the jump input in Update so button presses aren't missed.
