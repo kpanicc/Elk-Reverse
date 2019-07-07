@@ -18,16 +18,45 @@ public class PlayerController : MonoBehaviour {
     {
         if (Input.GetButtonDown("Cancel"))
             SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        
 
-        if (Input.GetButtonDown("Fire2"))
+
+        // Lantern control
+        if (Input.GetButtonDown("LanternRight"))
         {
-            character.SecondaryFireDown();
+            character.LanternRight();
         }
-        else if (Input.GetButtonUp("Fire2"))
+        else if(Input.GetButtonUp("LanternRight"))
         {
-            character.SecondaryFireUp();
+            character.LanternRightUp();
+        }
+        if (Input.GetButtonDown("LanternLeft"))
+        {
+            character.LanternLeft();
+        }
+        else if (Input.GetButtonUp("LanternLeft"))
+        {
+            character.LanternLeftUp();
+        }
+        if (Input.GetButtonDown("LanternUp"))
+        {
+            character.LanternHeight(1);
+        }
+        else if (Input.GetButtonUp("LanternUp"))
+        {
+            character.LanternHeight(0);
+        }
+        if (Input.GetButtonDown("LanternDown"))
+        {
+            character.LanternHeight(-1);
+        }
+        else if (Input.GetButtonUp("LanternDown"))
+        {
+            character.LanternHeight(0);
         }
 
+
+        // Jump control
         if (!m_Jump)
         {
             // Read the jump input in Update so button presses aren't missed.

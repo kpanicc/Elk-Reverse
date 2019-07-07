@@ -20,6 +20,7 @@ MonoBehaviour:
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0
+  EncryptionKey: 
   ImportType: 0
   TargetAssetPath: 
   LoggingLevel: 2
@@ -74,8 +75,7 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks:
-  - Master
+  MasterBanks: []
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264

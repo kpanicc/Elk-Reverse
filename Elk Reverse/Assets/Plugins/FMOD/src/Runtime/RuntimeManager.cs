@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Text;
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -177,6 +179,7 @@ namespace FMODUnity
         FMOD.RESULT Initialize()
         {
             #if UNITY_EDITOR
+            AssemblyReloadEvents.beforeAssemblyReload += HandleBeforeAssemblyReload;
             EditorApplication.playModeStateChanged += HandlePlayModeStateChange;
             #endif // UNITY_EDITOR
 
@@ -236,6 +239,13 @@ retry:
             result = coreSystem.setAdvancedSettings(ref advancedSettings);
             CheckInitResult(result, "FMOD.System.setAdvancedSettings");
 
+            if (!string.IsNullOrEmpty(Settings.Instance.EncryptionKey))
+            {
+                FMOD.Studio.ADVANCEDSETTINGS studioAdvancedSettings = new FMOD.Studio.ADVANCEDSETTINGS();
+                result = studioSystem.setAdvancedSettings(studioAdvancedSettings, Settings.Instance.EncryptionKey);
+                CheckInitResult(result, "FMOD.Studio.System.setAdvancedSettings");
+            }
+
             result = studioSystem.initialize(virtualChannels, studioInitFlags, FMOD.INITFLAGS.NORMAL, IntPtr.Zero);
             if (result != FMOD.RESULT.OK && initResult == FMOD.RESULT.OK)
             {
@@ -285,38 +295,93 @@ retry:
         List<FMOD.Studio.EventInstance> eventPositionWarnings = new List<FMOD.Studio.EventInstance>();
         #endif
 
+        public static int AddListener(StudioListener listener)
+        {
+            // Is the listener already in the list?
+            for (int i = 0; i < Listeners.Count; i++)
+            {
+                if (Listeners[i] != null && listener.gameObject == Listeners[i].gameObject)
+                {
+                    Debug.LogWarning(string.Format(("[FMOD] Listener has already been added at index {0}."), i));
+                    return i;
+                }
+            }
+            // If already at the max numListeners
+            if (numListeners >= FMOD.CONSTANTS.MAX_LISTENERS)
+            {
+                Debug.LogWarning(string.Format(("[FMOD] Max number of listeners reached : {0}."), FMOD.CONSTANTS.MAX_LISTENERS));
+                //return -1;
+            }
+
+            // If not already in the list
+            // The next available spot in the list should be at `numListeners`
+            if (Listeners.Count <= numListeners)
+            {
+                Listeners.Add(listener);
+            }
+            else
+            {
+                Listeners[numListeners] = listener;
+            }
+            // Increment `numListeners`
+            numListeners++;
+            // setNumListeners (8 is the most that FMOD supports)
+            int numListenersClamped = Mathf.Min(numListeners, FMOD.CONSTANTS.MAX_LISTENERS);
+            StudioSystem.setNumListeners(numListenersClamped);
+            return numListeners - 1;
+        }
+
+        public static bool RemoveListener(StudioListener listener)
+        {
+            int index = listener.ListenerNumber;
+            // Remove listener
+            if (index != -1)
+            {
+                Listeners[index] = null;
+
+                // Are there more listeners above the index of the one we are removing?
+                if (numListeners - 1 > index)
+                {
+                    // Move any higher index listeners down
+                    for (int i = index; i < Listeners.Count; i++)
+                    {
+                        if (i == Listeners.Count - 1)
+                        {
+                            Listeners[i] = null;
+                        }
+                        else
+                        {
+                            Listeners[i] = Listeners[i + 1];
+                            if (Listeners[i])
+                            {
+                                Listeners[i].ListenerNumber = i;
+                            }
+                        }
+                    }
+                }
+                // Decriment numListeners
+                numListeners--;
+                // Always need at least 1 listener, otherwise "[FMOD] assert : assertion: 'numListeners >= 1 && numListeners <= 8' failed"
+                int numListenersClamped = Mathf.Min(Mathf.Max(numListeners, 1), FMOD.CONSTANTS.MAX_LISTENERS);
+                StudioSystem.setNumListeners(numListenersClamped);
+                // Listener attributes will be updated before the next update, due to the Script Execution Order.
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         bool listenerWarningIssued = false;
         void Update()
         {
             if (studioSystem.isValid())
             {
-                bool foundListener = false;
-                bool hasAllListeners = false;
-                int numListeners = 0;
-                for (int i = FMOD.CONSTANTS.MAX_LISTENERS - 1; i >= 0; i--)
-                {
-                    if (!foundListener && HasListener[i])
-                    {
-                        numListeners = i + 1;
-                        foundListener = true;
-                        hasAllListeners = true;
-                    }
-
-                    if (!HasListener[i] && foundListener)
-                    {
-                        hasAllListeners = false;
-                    }
-                }
-
-                if (foundListener)
-                {
-                    studioSystem.setNumListeners(numListeners);
-                }
-
-                if (!hasAllListeners && !listenerWarningIssued)
+                if (numListeners <= 0 && !listenerWarningIssued)
                 {
                     listenerWarningIssued = true;
-                    UnityEngine.Debug.LogWarning("[FMOD] Please add an 'FMOD Studio Listener' component to your a camera in the scene for correct 3D positioning of sounds");
+                    UnityEngine.Debug.LogWarning("[FMOD] Please add an 'FMOD Studio Listener' component to your a camera in the scene for correct 3D positioning of sounds.");
                 }
 
                 for (int i = 0; i < attachedInstances.Count; i++)
@@ -365,7 +430,29 @@ retry:
                     }
                     eventPositionWarnings.RemoveAt(i);
                 }
+
+                isOverlayEnabled = Settings.Instance.IsOverlayEnabled(fmodPlatform);
                 #endif
+
+                if (isOverlayEnabled)
+                {
+                    if (!overlayDrawer)
+                    {
+                        overlayDrawer = Instance.gameObject.AddComponent<FMODRuntimeManagerOnGUIHelper>();
+                        overlayDrawer.TargetRuntimeManager = this;
+                    }
+                    else
+                    {
+                        overlayDrawer.gameObject.SetActive(true);
+                    }
+                }
+                else
+                {
+                    if (overlayDrawer != null && overlayDrawer.gameObject.activeSelf)
+                    {
+                        overlayDrawer.gameObject.SetActive(false);
+                    }
+                }
 
                 studioSystem.update();
             }
@@ -405,14 +492,24 @@ retry:
             }
         }
 
+        protected bool isOverlayEnabled = false;
+        FMODRuntimeManagerOnGUIHelper overlayDrawer = null;
         Rect windowRect = new Rect(10, 10, 300, 100);
-        void OnGUI()
+
+        public void ExecuteOnGUI()
         {
-            if (studioSystem.isValid() && Settings.Instance.IsOverlayEnabled(fmodPlatform))
+            if (studioSystem.isValid() && isOverlayEnabled)
             {
-                windowRect = GUI.Window(0, windowRect, DrawDebugOverlay, "FMOD Studio Debug");
+                windowRect = GUI.Window(GetInstanceID(), windowRect, DrawDebugOverlay, "FMOD Studio Debug");
             }
         }
+
+        #if !UNITY_EDITOR
+        private void Start()
+        {
+            isOverlayEnabled = Settings.Instance.IsOverlayEnabled(fmodPlatform);
+        }
+        #endif
 
         string lastDebugText;
         float lastDebugUpdate = 0;
@@ -504,6 +601,11 @@ retry:
             }
         }
 
+        static void HandleBeforeAssemblyReload()
+        {
+            Destroy();
+        }
+
         void HandlePlayModeStateChange(PlayModeStateChange state)
         {
             if (state == PlayModeStateChange.ExitingEditMode || state == PlayModeStateChange.EnteredEditMode)
@@ -513,7 +615,7 @@ retry:
         }
         #endif
 
-        #if UNITY_IOS
+        #if UNITY_IOS && !UNITY_EDITOR
         /* iOS alarm interruptions do not trigger OnApplicationPause
          * Sending the app to the background does trigger OnApplicationFocus
          * We don't want to use this on Android as other things (like the keyboard)
@@ -530,11 +632,11 @@ retry:
 
                 if (focus)
                 {
-                    lowlevelSystem.mixerResume();
+                    coreSystem.mixerResume();
                 }
                 else
                 {
-                    lowlevelSystem.mixerSuspend();
+                    coreSystem.mixerSuspend();
                 }
             }
         }
@@ -583,7 +685,7 @@ retry:
             }
         }
 
-        #if UNITY_WEBGL
+#if UNITY_ANDROID || UNITY_WEBGL
         IEnumerator loadFromWeb(string bankPath, string bankName, bool loadSamples)
         {
             byte[] loadWebResult;
@@ -603,7 +705,7 @@ retry:
 
             Debug.LogFormat("[FMOD] Finished loading {0}", bankPath);
         }
-        #endif
+#endif // UNITY_ANDROID || UNITY_WEBGL
 
         public static void LoadBank(string bankName, bool loadSamples = false)
         {
@@ -622,7 +724,9 @@ retry:
             {
                 string bankPath = RuntimeUtils.GetBankPath(bankName);
                 FMOD.RESULT loadResult;
-                #if UNITY_ANDROID && !UNITY_EDITOR
+
+                #if !UNITY_EDITOR
+                #if UNITY_ANDROID && !UNITY_2018_OR_NEWER
                 if (!bankPath.StartsWith("file:///android_asset"))
                 {
                     using (var www = new WWW(bankPath))
@@ -641,13 +745,14 @@ retry:
                     }
                 }
                 else
-                #elif UNITY_WEBGL
+                #elif UNITY_ANDROID || UNITY_WEBGL
                 if (bankPath.Contains("://"))
                 {
                     Instance.StartCoroutine(Instance.loadFromWeb(bankPath, bankName, loadSamples));
                 }
                 else
-                #endif
+                #endif // UNITY_ANDROID || UNITY_WEBGL
+                #endif // !UNITY_EDITOR
                 {
                     LoadedBank loadedBank = new LoadedBank();
                     loadResult = Instance.studioSystem.loadBankFile(bankPath, FMOD.Studio.LOAD_BANK_FLAGS.NORMAL, out loadedBank.Bank);
@@ -905,7 +1010,8 @@ retry:
             return eventDesc;
         }
 
-        public static bool[] HasListener = new bool[FMOD.CONSTANTS.MAX_LISTENERS];
+        public static List<StudioListener> Listeners = new List<StudioListener>();
+        private static int numListeners = 0;
 
         public static void SetListenerLocation(GameObject gameObject, Rigidbody rigidBody = null)
         {
@@ -1005,7 +1111,7 @@ retry:
         private void LoadPlugins(Settings fmodSettings)
         {
             #if (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
-            FmodUnityNativePluginInit(lowlevelSystem.handle);
+            FmodUnityNativePluginInit(coreSystem.handle);
             #else
 
             FMOD.RESULT result;

@@ -52,8 +52,10 @@ public class Character2D : MonoBehaviour
         }
         animator.SetBool("Grounded", m_Grounded);
         animator.SetFloat("SpeedY", rb2d.velocity.y);
-        animator.SetFloat("CurrentLanternFrameOffset", animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+        var time = animator.GetCurrentAnimatorStateInfo(0).normalizedTime - Mathf.Floor(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+        animator.SetFloat("CurrentLanternFrameOffset", time);
     }
+    
 
     public void Move(float direction)
     {
@@ -80,19 +82,50 @@ public class Character2D : MonoBehaviour
             rb2d.AddForce(new Vector2(0, m_JumpForce));
     }
 
-    public void SecondaryFireDown()
+    // Functions for controlling the lantern
+    public void LanternRight()
     {
-        UnityEngine.Debug.Log("down");
-        usingLantern = true;
-        lanternYOrigin = Input.mousePosition.y;
-        animator.SetBool("Lantern", usingLantern);
+        if (!facingLeft)
+        {
+            UnityEngine.Debug.Log("right");
+            usingLantern = true;
+            animator.SetBool("Lantern", usingLantern);
+        }
+    }
+    public void LanternRightUp()
+    {
+        if (!facingLeft)
+        {
+            UnityEngine.Debug.Log("not right");
+            usingLantern = false;
+            animator.SetBool("Lantern", usingLantern);
+        }
     }
 
-    public void SecondaryFireUp()
+    public void LanternLeft()
     {
-        UnityEngine.Debug.Log("up");
-        usingLantern = false;
-        animator.SetBool("Lantern", usingLantern);
+        if (facingLeft)
+        {
+            UnityEngine.Debug.Log("left");
+            usingLantern = true;
+            animator.SetBool("Lantern", usingLantern);
+        }
+    }
+
+    public void LanternLeftUp()
+    {
+        if (!facingLeft)
+        {
+            UnityEngine.Debug.Log("not left");
+            usingLantern = false;
+            animator.SetBool("Lantern", usingLantern);
+        }
+    }
+
+    public void LanternHeight(int height)
+    {
+        UnityEngine.Debug.Log(height);
+        animator.SetInteger("LookingDirection", height);
     }
 
     private void OnGUI()
@@ -124,5 +157,10 @@ public class Character2D : MonoBehaviour
             stepSoundInstance.setVolume(stepSoundVolume);
             stepSoundInstance.start();
         }
+    }
+
+    public void getCurrentLookingDirection()
+    {
+
     }
 }
