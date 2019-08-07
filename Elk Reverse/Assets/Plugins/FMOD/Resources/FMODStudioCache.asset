@@ -29,7 +29,7 @@ MonoBehaviour:
   - {fileID: 114483662199897780}
   StringsBanks:
   - {fileID: 114676189666551244}
-  stringsBankWriteTime: 636938129219170312
+  stringsBankWriteTime: 636939030715395830
   cacheVersion: 3
 --- !u!114 &114037431819684990
 MonoBehaviour:
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/MX/Lv1
   m_EditorClassIdentifier: 
   Path: event:/MX/Lv1
   guid: 7d5f78755c72b54984ba7d0bb0080ac4
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/FOLEY/Elk/Saltar_   Aterrizar
   m_EditorClassIdentifier: 
   Path: event:/FOLEY/Elk/Saltar_   Aterrizar
   guid: 9e60cc84a724dc459dedaa1c505fb515
@@ -131,11 +131,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: D:\Repos\Elk Reverse\lluvia SFX\Build\Desktop\Master.bank
-  lastModified: 636938129219140322
+  SubDir: 
+  lastModified: 636939030715365735
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 9596672
+    Value: 9458272
   Exists: 1
 --- !u!114 &114615736998391222
 MonoBehaviour:
@@ -146,7 +147,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/FOLEY/Elk/Arrastrar
   m_EditorClassIdentifier: 
   Path: event:/FOLEY/Elk/Arrastrar
   guid: d72ae0400d323846880376a2691a1da5
@@ -168,7 +169,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/FOLEY/Elk/Linterna
   m_EditorClassIdentifier: 
   Path: event:/FOLEY/Elk/Linterna
   guid: d1fccc7ad2d19a44a26135f60a877c6f
@@ -190,7 +191,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/FOLEY/Elk/Caminar_Correr
   m_EditorClassIdentifier: 
   Path: event:/FOLEY/Elk/Caminar_Correr
   guid: a936f1e54ce30d42a4bb3e8392506fe1
@@ -202,7 +203,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 900
+  Length: 200
 --- !u!114 &114676189666551244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,10 +213,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
   Path: D:\Repos\Elk Reverse\lluvia SFX\Build\Desktop\Master.strings.bank
-  lastModified: 636938129219170312
+  SubDir: 
+  lastModified: 636939030715395830
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -230,7 +232,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/FX/SFX_Lluvia
   m_EditorClassIdentifier: 
   Path: event:/FX/SFX_Lluvia
   guid: b86cbc6cf47251408a7367a0066eb87a
@@ -252,7 +254,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/FX/SFX_Madera_Mov
   m_EditorClassIdentifier: 
   Path: event:/FX/SFX_Madera_Mov
   guid: f931768611f18345b168562fba32efc4
@@ -274,7 +276,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/MX/Lv2
   m_EditorClassIdentifier: 
   Path: event:/MX/Lv2
   guid: a3eba3e6bc198044b48d4f12da709f64
@@ -360,7 +362,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: event:/FX/SFX_Carretilla
   m_EditorClassIdentifier: 
   Path: event:/FX/SFX_Carretilla
   guid: 8e83f3d8a9f3794fb3c8151b591f6bf0

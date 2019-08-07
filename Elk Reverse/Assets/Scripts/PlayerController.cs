@@ -22,37 +22,41 @@ public class PlayerController : MonoBehaviour {
 
 
         // Lantern control
-        if (Input.GetButtonDown("LanternRight"))
+        if (Input.GetButtonDown("UseLantern"))
         {
-            character.LanternRight();
+            character.EnableLantern();
+            character.SetLanternHeight(0);
         }
-        else if(Input.GetButtonUp("LanternRight"))
+        else if (Input.GetButtonUp("UseLantern"))
         {
-            character.LanternRightUp();
+            character.DisableLantern();
         }
-        if (Input.GetButtonDown("LanternLeft"))
-        {
-            character.LanternLeft();
-        }
-        else if (Input.GetButtonUp("LanternLeft"))
-        {
-            character.LanternLeftUp();
-        }
+
         if (Input.GetButtonDown("LanternUp"))
         {
-            character.LanternHeight(1);
+            character.SetLanternHeight(1);
         }
         else if (Input.GetButtonUp("LanternUp"))
         {
-            character.LanternHeight(0);
+            character.SetLanternHeight(0);
         }
+
         if (Input.GetButtonDown("LanternDown"))
         {
-            character.LanternHeight(-1);
+            character.SetLanternHeight(-1);
         }
         else if (Input.GetButtonUp("LanternDown"))
         {
-            character.LanternHeight(0);
+            character.SetLanternHeight(0);
+        }
+
+        if (Input.GetButtonDown("GrabWagon"))
+        {
+            character.GrabWagon();
+        }
+        else if (Input.GetButtonUp("GrabWagon"))
+        {
+            character.ReleaseWagon();
         }
 
 

@@ -28,7 +28,13 @@ public class Character2D : MonoBehaviour
     private bool m_Grounded;
     private bool facingLeft = true;
     private bool usingLantern = false;
-    private float lanternYOrigin;
+    private float accumulatedNormalizedTime = 0.0f;
+
+    [TagSelector]
+    public string wagonTag = "Movable";
+    private bool isWagonGrabbed = false;
+    private GameObject wagonGrabbed = null;
+    private FixedJoint2D wagoncharacterjoint = null;
 
     // Use this for initialization
     void Start ()
@@ -52,16 +58,29 @@ public class Character2D : MonoBehaviour
         }
         animator.SetBool("Grounded", m_Grounded);
         animator.SetFloat("SpeedY", rb2d.velocity.y);
-        var time = animator.GetCurrentAnimatorStateInfo(0).normalizedTime - Mathf.Floor(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
-        animator.SetFloat("CurrentLanternFrameOffset", time);
+        if (wagonGrabbed != null)
+            UnityEngine.Debug.Log(wagonGrabbed.GetComponent<Rigidbody2D>().mass);
     }
-    
+
+    private void LateUpdate()
+    {
+        if (isWagonGrabbed)
+        {
+            //var wagonrb2d = wagonGrabbed.GetComponent<Rigidbody2D>();
+           // wagonrb2d.MovePosition(transform.Find(""))
+        }
+    }
+
 
     public void Move(float direction)
     {
         animator.SetFloat("SpeedX", Mathf.Abs(direction));
         //Output the current Animation name and length to the screen
-        rb2d.velocity = new Vector2(direction * m_maxSpeed, rb2d.velocity.y);
+        //if (!isWagonGrabbed)
+            rb2d.velocity = new Vector2(direction * m_maxSpeed, rb2d.velocity.y);
+        /*else
+            rb2d.velocity = new Vector2(direction * m_maxWagonSpeed, rb2d.velocity.y);*/
+
 
         if (facingLeft && direction > 0)
         {
@@ -83,64 +102,62 @@ public class Character2D : MonoBehaviour
     }
 
     // Functions for controlling the lantern
-    public void LanternRight()
+    public void EnableLantern()
     {
-        if (!facingLeft)
-        {
-            UnityEngine.Debug.Log("right");
-            usingLantern = true;
-            animator.SetBool("Lantern", usingLantern);
-        }
+        UnityEngine.Debug.Log("Enable Lantern");
+        usingLantern = true;
+        animator.SetBool("Lantern", usingLantern);
     }
-    public void LanternRightUp()
+
+    public void DisableLantern()
     {
-        if (!facingLeft)
+        usingLantern = false;
+        animator.SetBool("Lantern", usingLantern);
+    }
+
+    public void GrabWagon()
+    {
+        var wagons = GameObject.FindGameObjectsWithTag(wagonTag);
+        Collider2D bodyCollider = GetComponentInChildren<BoxCollider2D>();
+
+        foreach (var wagon in wagons)
         {
-            UnityEngine.Debug.Log("not right");
-            usingLantern = false;
-            animator.SetBool("Lantern", usingLantern);
+            foreach (var collider in wagon.GetComponentsInChildren<Collider2D>())
+            {
+                if (bodyCollider.IsTouching(collider))
+                {
+                    isWagonGrabbed = true;
+                    wagonGrabbed = wagon;
+                    var wagonrb2d = wagonGrabbed.GetComponent<Rigidbody2D>();
+                    wagonrb2d.isKinematic = false;
+
+                    wagoncharacterjoint = gameObject.AddComponent<FixedJoint2D>();
+                    wagoncharacterjoint.connectedBody = wagonrb2d;
+                    wagoncharacterjoint.connectedAnchor = wagonrb2d.transform.position;
+                }
+            }
         }
     }
 
-    public void LanternLeft()
+    public void ReleaseWagon()
     {
-        if (facingLeft)
-        {
-            UnityEngine.Debug.Log("left");
-            usingLantern = true;
-            animator.SetBool("Lantern", usingLantern);
-        }
+        var wagonrb2d = wagonGrabbed.GetComponent<Rigidbody2D>();
+        wagonrb2d.isKinematic = true;
+        Destroy(wagoncharacterjoint);
+        isWagonGrabbed = false;
+        wagonGrabbed = null;
     }
 
-    public void LanternLeftUp()
+    public void SetLanternHeight(int height)
     {
-        if (!facingLeft)
-        {
-            UnityEngine.Debug.Log("not left");
-            usingLantern = false;
-            animator.SetBool("Lantern", usingLantern);
-        }
-    }
-
-    public void LanternHeight(int height)
-    {
-        UnityEngine.Debug.Log(height);
+        accumulatedNormalizedTime = GameHelpers.GetDecimalPart(animator.GetCurrentAnimatorStateInfo(0).normalizedTime + accumulatedNormalizedTime);
+        animator.SetFloat("CurrentLanternFrameOffset", accumulatedNormalizedTime);
         animator.SetInteger("LookingDirection", height);
     }
 
     private void OnGUI()
     {
-        /*print("SpeedX: " + rb2d.velocity);
-        print("FacingLeft: " + facingLeft);*/
-    }
 
-    public void Flip()
-    {
-
-        // Multiply the player's x local scale by -1.
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
     }
 
     public void OnAnimationStep(int frame)
@@ -157,10 +174,5 @@ public class Character2D : MonoBehaviour
             stepSoundInstance.setVolume(stepSoundVolume);
             stepSoundInstance.start();
         }
-    }
-
-    public void getCurrentLookingDirection()
-    {
-
     }
 }

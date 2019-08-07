@@ -18,4 +18,9 @@ public class GameHelpers : MonoBehaviour {
     {
         SceneManager.LoadScene(name, LoadSceneMode.Single);
     }
+
+    public static float GetDecimalPart(float number)
+    {
+        return number - Mathf.Floor(number);
+    }
 }
