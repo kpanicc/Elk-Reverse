@@ -58,8 +58,6 @@ public class Character2D : MonoBehaviour
         }
         animator.SetBool("Grounded", m_Grounded);
         animator.SetFloat("SpeedY", rb2d.velocity.y);
-        if (wagonGrabbed != null)
-            UnityEngine.Debug.Log(wagonGrabbed.GetComponent<Rigidbody2D>().mass);
     }
 
     private void LateUpdate()
@@ -141,11 +139,14 @@ public class Character2D : MonoBehaviour
 
     public void ReleaseWagon()
     {
-        var wagonrb2d = wagonGrabbed.GetComponent<Rigidbody2D>();
-        wagonrb2d.isKinematic = true;
-        Destroy(wagoncharacterjoint);
-        isWagonGrabbed = false;
-        wagonGrabbed = null;
+        if (isWagonGrabbed)
+        {
+            var wagonrb2d = wagonGrabbed.GetComponent<Rigidbody2D>();
+            wagonrb2d.isKinematic = true;
+            Destroy(wagoncharacterjoint);
+            isWagonGrabbed = false;
+            wagonGrabbed = null;
+        }
     }
 
     public void SetLanternHeight(int height)

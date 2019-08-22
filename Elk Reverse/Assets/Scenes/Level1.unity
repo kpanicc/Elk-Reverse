@@ -1833,6 +1833,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1559926328113146, guid: ca1b75be7bea2ba4d8cd863389f1ea10, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca1b75be7bea2ba4d8cd863389f1ea10, type: 2}
   m_IsPrefabParent: 0
@@ -11658,6 +11662,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1586710759
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4445349176050680, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 30.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445349176050680, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.185243
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445349176050680, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445349176050680, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445349176050680, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445349176050680, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445349176050680, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445349176050680, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364332141603640, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+      propertyPath: m_Name
+      value: Wagon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b5a419656c25b684a9af895b3294a0d7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1618370541
 GameObject:
   m_ObjectHideFlags: 0
