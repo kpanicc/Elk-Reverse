@@ -96,9 +96,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 411
-        width: 250
-        height: 320
+        y: 246
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,10 +109,10 @@ TextureImporter:
       name: elk_jump_left_1
       rect:
         serializedVersion: 2
-        x: 250
-        y: 411
-        width: 250
-        height: 320
+        x: 118
+        y: 246
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,10 +123,10 @@ TextureImporter:
       name: elk_jump_left_2
       rect:
         serializedVersion: 2
-        x: 500
-        y: 411
-        width: 250
-        height: 320
+        x: 0
+        y: 124
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,10 +137,10 @@ TextureImporter:
       name: elk_jump_left_3
       rect:
         serializedVersion: 2
-        x: 750
-        y: 411
-        width: 250
-        height: 320
+        x: 118
+        y: 124
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +151,10 @@ TextureImporter:
       name: elk_jump_left_4
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 411
-        width: 250
-        height: 320
+        x: 0
+        y: 2
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,108 +165,10 @@ TextureImporter:
       name: elk_jump_left_5
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 411
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_left_6
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 411
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_left_7
-      rect:
-        serializedVersion: 2
-        x: 1750
-        y: 411
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_left_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 91
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_left_9
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 91
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_left_10
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 91
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_left_11
-      rect:
-        serializedVersion: 2
-        x: 750
-        y: 91
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_left_12
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 91
-        width: 250
-        height: 320
+        x: 118
+        y: 2
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

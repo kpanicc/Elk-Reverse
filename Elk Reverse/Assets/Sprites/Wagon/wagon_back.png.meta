@@ -7,6 +7,11 @@ TextureImporter:
     21300004: wagon_back_2
     21300006: wagon_back_3
     21300008: wagon_back_4
+    21300010: wagon_back_5
+    21300012: wagon_back_6
+    21300014: wagon_back_7
+    21300016: wagon_back_8
+    21300018: wagon_back_9
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -88,9 +93,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 297
-        width: 300
-        height: 298
+        y: 179
+        width: 180
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -101,10 +106,10 @@ TextureImporter:
       name: wagon_back_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 297
-        width: 300
-        height: 298
+        x: 180
+        y: 179
+        width: 180
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,10 +120,10 @@ TextureImporter:
       name: wagon_back_2
       rect:
         serializedVersion: 2
-        x: 600
-        y: 297
-        width: 300
-        height: 298
+        x: 360
+        y: 179
+        width: 180
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +134,10 @@ TextureImporter:
       name: wagon_back_3
       rect:
         serializedVersion: 2
-        x: 900
-        y: 297
-        width: 300
-        height: 298
+        x: 540
+        y: 179
+        width: 180
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +148,80 @@ TextureImporter:
       name: wagon_back_4
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 297
-        width: 300
-        height: 298
+        x: 720
+        y: 179
+        width: 180
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wagon_back_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 179
+        width: 180
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wagon_back_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 180
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wagon_back_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1
+        width: 180
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wagon_back_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1
+        width: 180
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wagon_back_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1
+        width: 180
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

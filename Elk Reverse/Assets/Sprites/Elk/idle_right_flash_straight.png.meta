@@ -94,9 +94,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 704
-        width: 250
-        height: 320
+        y: 118
+        width: 118
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,10 +107,10 @@ TextureImporter:
       name: idle_right_flash_straight_1
       rect:
         serializedVersion: 2
-        x: 250
-        y: 704
-        width: 250
-        height: 320
+        x: 118
+        y: 118
+        width: 118
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: idle_right_flash_straight_2
       rect:
         serializedVersion: 2
-        x: 500
-        y: 704
-        width: 250
-        height: 320
+        x: 236
+        y: 118
+        width: 118
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,10 +135,10 @@ TextureImporter:
       name: idle_right_flash_straight_3
       rect:
         serializedVersion: 2
-        x: 750
-        y: 704
-        width: 250
-        height: 320
+        x: 0
+        y: 0
+        width: 118
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: idle_right_flash_straight_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 250
-        height: 320
+        x: 118
+        y: 0
+        width: 118
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,80 +163,10 @@ TextureImporter:
       name: idle_right_flash_straight_5
       rect:
         serializedVersion: 2
-        x: 250
-        y: 384
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_right_flash_straight_6
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 384
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_right_flash_straight_7
-      rect:
-        serializedVersion: 2
-        x: 750
-        y: 384
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_right_flash_straight_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_right_flash_straight_9
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 64
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_right_flash_straight_10
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 64
-        width: 250
-        height: 320
+        x: 236
+        y: 0
+        width: 118
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

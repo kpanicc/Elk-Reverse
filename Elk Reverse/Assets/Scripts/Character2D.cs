@@ -28,6 +28,7 @@ public class Character2D : MonoBehaviour
     private bool m_Grounded;
     private bool facingLeft = true;
     private bool usingLantern = false;
+    private bool jumping = true;
     private float accumulatedNormalizedTime = 0.0f;
 
     [TagSelector]
@@ -54,10 +55,19 @@ public class Character2D : MonoBehaviour
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
+            {
+                UnityEngine.Debug.Log(colliders[i].name);
                 m_Grounded = true;
+                break;
+            }
         }
         animator.SetBool("Grounded", m_Grounded);
         animator.SetFloat("SpeedY", rb2d.velocity.y);
+        if (m_Grounded && jumping)
+        {
+            jumping = false;
+            animator.SetBool("Jumping", jumping);
+        }
     }
 
     private void LateUpdate()
@@ -96,7 +106,11 @@ public class Character2D : MonoBehaviour
     public void Jump()
     {
         if (m_Grounded)
+        {
             rb2d.AddForce(new Vector2(0, m_JumpForce));
+            jumping = true;
+            animator.SetBool("Jumping", jumping);
+        }
     }
 
     // Functions for controlling the lantern
@@ -116,22 +130,26 @@ public class Character2D : MonoBehaviour
     public void GrabWagon()
     {
         var wagons = GameObject.FindGameObjectsWithTag(wagonTag);
-        Collider2D bodyCollider = GetComponentInChildren<BoxCollider2D>();
+        var bodyColliders = GetComponentsInChildren<Collider2D>();
 
         foreach (var wagon in wagons)
         {
             foreach (var collider in wagon.GetComponentsInChildren<Collider2D>())
             {
-                if (bodyCollider.IsTouching(collider))
+                foreach (var bodyCollider in bodyColliders)
                 {
-                    isWagonGrabbed = true;
-                    wagonGrabbed = wagon;
-                    var wagonrb2d = wagonGrabbed.GetComponent<Rigidbody2D>();
-                    wagonrb2d.isKinematic = false;
+                    if (bodyCollider.IsTouching(collider))
+                    {
+                        isWagonGrabbed = true;
+                        wagonGrabbed = wagon;
+                        var wagonrb2d = wagonGrabbed.GetComponent<Rigidbody2D>();
+                        wagonrb2d.isKinematic = false;
 
-                    wagoncharacterjoint = gameObject.AddComponent<FixedJoint2D>();
-                    wagoncharacterjoint.connectedBody = wagonrb2d;
-                    wagoncharacterjoint.connectedAnchor = wagonrb2d.transform.position;
+                        wagoncharacterjoint = gameObject.AddComponent<FixedJoint2D>();
+                        wagoncharacterjoint.connectedBody = wagonrb2d;
+                        wagoncharacterjoint.connectedAnchor = wagonrb2d.transform.position;
+                        return;
+                    }
                 }
             }
         }

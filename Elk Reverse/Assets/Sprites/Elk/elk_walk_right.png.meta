@@ -118,9 +118,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 708
-        width: 189
-        height: 316
+        y: 246
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,10 +131,10 @@ TextureImporter:
       name: elk_walk_right_1
       rect:
         serializedVersion: 2
-        x: 228
-        y: 708
-        width: 204
-        height: 316
+        x: 118
+        y: 246
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,10 +145,10 @@ TextureImporter:
       name: elk_walk_right_2
       rect:
         serializedVersion: 2
-        x: 459
-        y: 719
-        width: 199
-        height: 305
+        x: 236
+        y: 246
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: elk_walk_right_3
       rect:
         serializedVersion: 2
-        x: 687
-        y: 720
-        width: 204
-        height: 304
+        x: 0
+        y: 124
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: elk_walk_right_4
       rect:
         serializedVersion: 2
-        x: 916
-        y: 723
-        width: 217
-        height: 301
+        x: 118
+        y: 124
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: elk_walk_right_5
       rect:
         serializedVersion: 2
-        x: 1155
-        y: 716
-        width: 206
-        height: 308
+        x: 236
+        y: 124
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,10 +201,10 @@ TextureImporter:
       name: elk_walk_right_6
       rect:
         serializedVersion: 2
-        x: 1387
-        y: 710
-        width: 207
-        height: 314
+        x: 0
+        y: 2
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: elk_walk_right_7
       rect:
         serializedVersion: 2
-        x: 1603
-        y: 708
-        width: 200
-        height: 316
+        x: 118
+        y: 2
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,122 +229,10 @@ TextureImporter:
       name: elk_walk_right_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 399
-        width: 191
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_walk_right_9
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 396
-        width: 189
-        height: 313
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_walk_right_10
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 396
-        width: 187
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_walk_right_11
-      rect:
-        serializedVersion: 2
-        x: 687
-        y: 406
-        width: 201
-        height: 303
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_walk_right_12
-      rect:
-        serializedVersion: 2
-        x: 916
-        y: 408
-        width: 213
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_walk_right_13
-      rect:
-        serializedVersion: 2
-        x: 1145
-        y: 419
-        width: 227
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_walk_right_14
-      rect:
-        serializedVersion: 2
-        x: 1374
-        y: 405
-        width: 227
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_walk_right_15
-      rect:
-        serializedVersion: 2
-        x: 1612
-        y: 399
-        width: 220
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_walk_right_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 83
-        width: 199
-        height: 311
+        x: 236
+        y: 2
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

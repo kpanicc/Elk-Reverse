@@ -3,6 +3,8 @@ from PIL import Image
 
 default_frame_size = 5
 
+usage = """tileset_route tile_size_x tile_size_y frame_size output_file"""
+
 
 def read_image(image_route):
     return Image.open(image_route)
@@ -101,7 +103,8 @@ def main(image_route, tile_size, frame_size, output_file):
 if __name__ == "__main__":
     if len(argv) < 5:
         print("Not enough input arguments")
+        print("Usage: " + usage)
     elif len(argv) < 6:
         main(argv[1], (int(argv[2]), int(argv[3])), default_frame_size, argv[4])
     else:
-        main(argv[1], (int(argv[2]), int(argv[3])), argv[5], argv[6])
+        main(argv[1], (int(argv[2]), int(argv[3])), argv[4], argv[5])

@@ -92,9 +92,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 704
-        width: 250
-        height: 320
+        y: 246
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -105,10 +105,10 @@ TextureImporter:
       name: elk_jump_right_1
       rect:
         serializedVersion: 2
-        x: 250
-        y: 704
-        width: 250
-        height: 320
+        x: 118
+        y: 246
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,10 +119,10 @@ TextureImporter:
       name: elk_jump_right_2
       rect:
         serializedVersion: 2
-        x: 500
-        y: 704
-        width: 250
-        height: 320
+        x: 0
+        y: 124
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,10 +133,10 @@ TextureImporter:
       name: elk_jump_right_3
       rect:
         serializedVersion: 2
-        x: 750
-        y: 704
-        width: 250
-        height: 320
+        x: 118
+        y: 124
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,9 +148,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 250
-        height: 320
+        y: 2
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,52 +161,10 @@ TextureImporter:
       name: elk_jump_right_5
       rect:
         serializedVersion: 2
-        x: 250
-        y: 384
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_right_6
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 384
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_right_7
-      rect:
-        serializedVersion: 2
-        x: 750
-        y: 384
-        width: 250
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: elk_jump_right_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 250
-        height: 320
+        x: 118
+        y: 2
+        width: 118
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

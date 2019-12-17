@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Wagon : MonoBehaviour {
 
@@ -30,7 +28,7 @@ public class Wagon : MonoBehaviour {
 
         foreach (GameObject child in children)
         {
-            Debug.Log(SpeedX);
+            //Debug.Log(SpeedX);
             Animator animator = child.GetComponent<Animator>();
             if (animator != null)
                 animator.SetFloat("SpeedX", SpeedX);

@@ -1,0 +1,2816 @@
+fileFormatVersion: 2
+guid: 2dd0a42c8e7a7984cac06593d6e74f71
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Level1Fixed_0
+    21300002: Level1Fixed_1
+    21300004: Level1Fixed_2
+    21300006: Level1Fixed_3
+    21300008: Level1Fixed_4
+    21300010: Level1Fixed_5
+    21300012: Level1Fixed_6
+    21300014: Level1Fixed_7
+    21300016: Level1Fixed_8
+    21300018: Level1Fixed_9
+    21300020: Level1Fixed_10
+    21300022: Level1Fixed_11
+    21300024: Level1Fixed_12
+    21300026: Level1Fixed_13
+    21300028: Level1Fixed_14
+    21300030: Level1Fixed_15
+    21300032: Level1Fixed_16
+    21300034: Level1Fixed_17
+    21300036: Level1Fixed_18
+    21300038: Level1Fixed_19
+    21300040: Level1Fixed_20
+    21300042: Level1Fixed_21
+    21300044: Level1Fixed_22
+    21300046: Level1Fixed_23
+    21300048: Level1Fixed_24
+    21300050: Level1Fixed_25
+    21300052: Level1Fixed_26
+    21300054: Level1Fixed_27
+    21300056: Level1Fixed_28
+    21300058: Level1Fixed_29
+    21300060: Level1Fixed_30
+    21300062: Level1Fixed_31
+    21300064: Level1Fixed_32
+    21300066: Level1Fixed_33
+    21300068: Level1Fixed_34
+    21300070: Level1Fixed_35
+    21300072: Level1Fixed_36
+    21300074: Level1Fixed_37
+    21300076: Level1Fixed_38
+    21300078: Level1Fixed_39
+    21300080: Level1Fixed_40
+    21300082: Level1Fixed_41
+    21300084: Level1Fixed_42
+    21300086: Level1Fixed_43
+    21300088: Level1Fixed_44
+    21300090: Level1Fixed_45
+    21300092: Level1Fixed_46
+    21300094: Level1Fixed_47
+    21300096: Level1Fixed_48
+    21300098: Level1Fixed_49
+    21300100: Level1Fixed_50
+    21300102: Level1Fixed_51
+    21300104: Level1Fixed_52
+    21300106: Level1Fixed_53
+    21300108: Level1Fixed_54
+    21300110: Level1Fixed_55
+    21300112: Level1Fixed_56
+    21300114: Level1Fixed_57
+    21300116: Level1Fixed_58
+    21300118: Level1Fixed_59
+    21300120: Level1Fixed_60
+    21300122: Level1Fixed_61
+    21300124: Level1Fixed_62
+    21300126: Level1Fixed_63
+    21300128: Level1Fixed_64
+    21300130: Level1Fixed_65
+    21300132: Level1Fixed_66
+    21300134: Level1Fixed_67
+    21300136: Level1Fixed_68
+    21300138: Level1Fixed_69
+    21300140: Level1Fixed_70
+    21300142: Level1Fixed_71
+    21300144: Level1Fixed_72
+    21300146: Level1Fixed_73
+    21300148: Level1Fixed_74
+    21300150: Level1Fixed_75
+    21300152: Level1Fixed_76
+    21300154: Level1Fixed_77
+    21300156: Level1Fixed_78
+    21300158: Level1Fixed_79
+    21300160: Level1Fixed_80
+    21300162: Level1Fixed_81
+    21300164: Level1Fixed_82
+    21300166: Level1Fixed_83
+    21300168: Level1Fixed_84
+    21300170: Level1Fixed_85
+    21300172: Level1Fixed_86
+    21300174: Level1Fixed_87
+    21300176: Level1Fixed_88
+    21300178: Level1Fixed_89
+    21300180: Level1Fixed_90
+    21300182: Level1Fixed_91
+    21300184: Level1Fixed_92
+    21300186: Level1Fixed_93
+    21300188: Level1Fixed_94
+    21300190: Level1Fixed_95
+    21300192: Level1Fixed_96
+    21300194: Level1Fixed_97
+    21300196: Level1Fixed_98
+    21300198: Level1Fixed_99
+    21300200: Level1Fixed_100
+    21300202: Level1Fixed_101
+    21300204: Level1Fixed_102
+    21300206: Level1Fixed_103
+    21300208: Level1Fixed_104
+    21300210: Level1Fixed_105
+    21300212: Level1Fixed_106
+    21300214: Level1Fixed_107
+    21300216: Level1Fixed_108
+    21300218: Level1Fixed_109
+    21300220: Level1Fixed_110
+    21300222: Level1Fixed_111
+    21300224: Level1Fixed_112
+    21300226: Level1Fixed_113
+    21300228: Level1Fixed_114
+    21300230: Level1Fixed_115
+    21300232: Level1Fixed_116
+    21300234: Level1Fixed_117
+    21300236: Level1Fixed_118
+    21300238: Level1Fixed_119
+    21300240: Level1Fixed_120
+    21300242: Level1Fixed_121
+    21300244: Level1Fixed_122
+    21300246: Level1Fixed_123
+    21300248: Level1Fixed_124
+    21300250: Level1Fixed_125
+    21300252: Level1Fixed_126
+    21300254: Level1Fixed_127
+    21300256: Level1Fixed_128
+    21300258: Level1Fixed_129
+    21300260: Level1Fixed_130
+    21300262: Level1Fixed_131
+    21300264: Level1Fixed_132
+    21300266: Level1Fixed_133
+    21300268: Level1Fixed_134
+    21300270: Level1Fixed_135
+    21300272: Level1Fixed_136
+    21300274: Level1Fixed_137
+    21300276: Level1Fixed_138
+    21300278: Level1Fixed_139
+    21300280: Level1Fixed_140
+    21300282: Level1Fixed_141
+    21300284: Level1Fixed_142
+    21300286: Level1Fixed_143
+    21300288: Level1Fixed_144
+    21300290: Level1Fixed_145
+    21300292: Level1Fixed_146
+    21300294: Level1Fixed_147
+    21300296: Level1Fixed_148
+    21300298: Level1Fixed_149
+    21300300: Level1Fixed_150
+    21300302: Level1Fixed_151
+    21300304: Level1Fixed_152
+    21300306: Level1Fixed_153
+    21300308: Level1Fixed_154
+    21300310: Level1Fixed_155
+    21300312: Level1Fixed_156
+    21300314: Level1Fixed_157
+    21300316: Level1Fixed_158
+    21300318: Level1Fixed_159
+    21300320: Level1Fixed_160
+    21300322: Level1Fixed_161
+    21300324: Level1Fixed_162
+    21300326: Level1Fixed_163
+    21300328: Level1Fixed_164
+    21300330: Level1Fixed_165
+    21300332: Level1Fixed_166
+    21300334: Level1Fixed_167
+    21300336: Level1Fixed_168
+    21300338: Level1Fixed_169
+    21300340: Level1Fixed_170
+    21300342: Level1Fixed_171
+    21300344: Level1Fixed_172
+    21300346: Level1Fixed_173
+    21300348: Level1Fixed_174
+    21300350: Level1Fixed_175
+    21300352: Level1Fixed_176
+    21300354: Level1Fixed_177
+    21300356: Level1Fixed_178
+    21300358: Level1Fixed_179
+    21300360: Level1Fixed_180
+    21300362: Level1Fixed_181
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level1Fixed_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_4
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_6
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_8
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1875
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_14
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_15
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_17
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1790
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_22
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_23
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_24
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_26
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1705
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_29
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_30
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_31
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_32
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_33
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_35
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1620
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_37
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_38
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_39
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_40
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_41
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_42
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_44
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1535
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_46
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_47
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_48
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_50
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_51
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_52
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_53
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1450
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_54
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_55
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_56
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_57
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_58
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_59
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_60
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_62
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1365
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_63
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_64
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_65
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_66
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_67
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_68
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_69
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_70
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_71
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1280
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_73
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_74
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_75
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_76
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_77
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_78
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_79
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_80
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1195
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_81
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_82
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_83
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_84
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_85
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_86
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_87
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_88
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_89
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1110
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_91
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_92
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_93
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_94
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_95
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_96
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_97
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_98
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1025
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_99
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_100
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_101
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_102
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_103
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_104
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_105
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_106
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_107
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 940
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_108
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_109
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_110
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_111
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_112
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_113
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_114
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_115
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_116
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 855
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_117
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 770
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_118
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 770
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_119
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 770
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_120
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 770
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_121
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 770
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_122
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 770
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_123
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 770
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_124
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 685
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_125
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 685
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_126
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 685
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_127
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 685
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_128
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 685
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_129
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 685
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_130
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 685
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_131
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 685
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_132
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 600
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_133
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 600
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_134
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 600
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_135
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 600
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_136
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 600
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_137
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 600
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_138
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_139
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 600
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_140
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 515
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_141
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 515
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_142
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 515
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_143
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 515
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_144
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 515
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_145
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 515
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_146
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 515
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_147
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 430
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_148
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 430
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_149
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 430
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_150
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 430
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_151
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 430
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_152
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 430
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_153
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 345
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_154
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 345
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_155
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 345
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_156
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 345
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_157
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 345
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_158
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 345
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_159
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 260
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_160
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 260
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_161
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 260
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_162
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 260
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_163
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 260
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_164
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 175
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_165
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 175
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_166
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 175
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_167
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 175
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_168
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 175
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_169
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 175
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_170
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 90
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_171
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 90
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_172
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 90
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_173
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 90
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_174
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 90
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_175
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 90
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_176
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_177
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_178
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_179
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_180
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level1Fixed_181
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
